@@ -1,0 +1,63 @@
+
+* {
+    text-align: center; 
+    /* 페이지 내 전체 텍스트 중앙 정렬 */
+
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    background-color: gray;
+    font-size: 16px;
+
+}
+
+body {
+    width: 640px; /* 640px 지정 */
+    margin: auto; 
+    /* 너비에서 남는 여백을 동일하게 분배 */
+}
+nav {
+    background-color: rgb(158, 158, 158);
+    border: 1px solid rgb(173, 173, 173);
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    box-shadow: 0 3px 10px rgb(80, 80, 80);
+}
+
+nav a{
+    margin: 45px;
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0 0 5px black;
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(206, 255, 255);
+}
+h1 {
+    font-size: 48px; /* h1 폰트 크기 변경 */
+}
+
+img{
+    width: 200px; /* 가로 크기 */
+    height: 200px; /* 새로 크기 */
+    border-radius: 100px; /* 둥근 모서리 */
+    margin: 30px;
+    border: 2px solid rgb(201, 201, 201);
+    box-shadow: 0px 0px 10px black;
+}
+
+p{
+ font-size: 1.5em; /* 부모보다 1.5배 폰트 크기 */
+}
+
+div {
+    border: 2px solid rgb(177, 177, 177);
+    border-radius: 20px;
+    background-color: rgb(207, 207, 207);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(39, 39, 39);
+}

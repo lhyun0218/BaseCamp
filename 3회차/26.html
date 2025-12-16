@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <title>텍스트 꾸미기</title>
+    <style>
+        * {
+            font-family: "Jua", sans-serif;
+            /* Arial을 쓰되 없으면 sans-serif를 써 */
+        }
+        html {
+            font-size: 8px;
+        }
+        body {
+            font-size: 32px;
+        }
+        #first {
+            font-size: 3rem; /* p태그는 기본이 16px [em은 부모, rem은 루트]*/
+            font-weight: 100; /* 100부터 900까지 두께 지정가능 */
+            line-height: 100px; /* line-height는 서로간의 간격 [기본값X] */
+            text-align: justify; 
+            /* 왼쪽, 오른쪽, 위, 아래, 정중앙,
+               justfy(양 끝 정렬) => 정렬 */
+        }
+    </style>
+</head>
+<body>
+    <p id="first">에스프레소와 물을 섞으면 아메리카노가 됩니다.</p>
+    <p>에스프레소와 물을 섞으면 아메리카노가 됩니다.</p>
+</body>
+</html>
